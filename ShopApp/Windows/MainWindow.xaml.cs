@@ -4,6 +4,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using System.Windows;
+using LibGit2Sharp;
 using System.Windows.Controls;
 using System.Windows.Data;
 using System.Windows.Documents;
@@ -20,10 +21,11 @@ namespace ShopApp
     /// </summary>
     public partial class MainWindow : Window
     {
-        public MainWindow()
+        public MainWindow(string[]args)
         {
             InitializeComponent();
             MainFrame.Navigate(new Pages.ProductPage());
+            var URLs = args[0];
         }
     }
 }
