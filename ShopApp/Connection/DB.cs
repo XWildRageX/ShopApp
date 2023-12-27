@@ -8,6 +8,6 @@ namespace ShopApp.Connection
 {
     public class DB
     {
-        public static Entities1 entities = new Entities1();
+        public static ShopEntities entities = new ShopEntities();
     }
 }
