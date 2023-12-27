@@ -21,11 +21,10 @@ namespace ShopApp
     /// </summary>
     public partial class MainWindow : Window
     {
-        public MainWindow(string[]args)
+        public MainWindow()
         {
             InitializeComponent();
             MainFrame.Navigate(new Pages.ProductPage());
-            var URLs = args[0];
         }
     }
 }
