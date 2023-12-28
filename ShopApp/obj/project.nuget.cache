@@ -1,0 +1,13 @@
+{
+  "version": 2,
+  "dgSpecHash": "S9N96/FPwuCGQhPHKnvAgKQDIiPwC15bpsJsNZplYlZn0RuRN7uw7Gc/d94N+3B/2WstdauvzplML0MTshb0Jg==",
+  "success": true,
+  "projectFilePath": "C:\\Users\\admin\\Desktop\\ShopApp-master\\ShopApp-master\\ShopApp\\ShopApp.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\admin\\.nuget\\packages\\entityframework\\6.2.0\\entityframework.6.2.0.nupkg.sha512",
+    "C:\\Users\\admin\\.nuget\\packages\\entityframework.ru\\6.2.0\\entityframework.ru.6.2.0.nupkg.sha512",
+    "C:\\Users\\admin\\.nuget\\packages\\libgit2sharp\\0.29.0\\libgit2sharp.0.29.0.nupkg.sha512",
+    "C:\\Users\\admin\\.nuget\\packages\\libgit2sharp.nativebinaries\\2.0.321\\libgit2sharp.nativebinaries.2.0.321.nupkg.sha512"
+  ],
+  "logs": []
+}
