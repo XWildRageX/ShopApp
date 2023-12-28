@@ -9,6 +9,10 @@
       Title="Продукты">
 
     <Grid>
+        <StackPanel Orientation="Horizontal" VerticalAlignment="Top" Margin="0 10">
+            <TextBlock Text="Поиск" Foreground="White" Margin="20 7 5 0" FontSize="22" FontWeight="Medium"/>
+            <TextBox Width="150" Style="{StaticResource  MainTextBox}" VerticalContentAlignment="Center" Height="30" Name="SearhBox" TextChanged="SearhBox_TextChanged"/>
+        </StackPanel>
         <DockPanel Margin="20 60 20 0" Height="auto">
             <ListView x:Name="ListViewProducts">
                 <ListView.ItemContainerStyle>

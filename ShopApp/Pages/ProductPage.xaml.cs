@@ -30,5 +30,30 @@ namespace ShopApp.Pages
             //Заполнение листвью информацией из листа продуктов
             ListViewProducts.ItemsSource = products;
         }
+
+        private void SearhBox_TextChanged(object sender, TextChangedEventArgs e)
+        {
+            try
+            {
+                if (SearhBox.Text == "")
+                {
+                    products = DB.entities.Product.ToList();
+                    ListViewProducts.ItemsSource = products;
+                }
+                else
+                {
+                    //Поиск продуктов по цене,названию и описанию
+                    products = products.Where(u => u.PruductName.ToLower().Contains(SearhBox.Text.ToLower()) || u.ProductCost.ToString().Contains(SearhBox.Text.ToLower()) || u.Description.ToLower().Contains(SearhBox.Text.ToLower())).ToList();
+                    ListViewProducts.ItemsSource = products;
+                }
+                if (ListViewProducts.HasItems == false)
+                {
+                }
+                else
+                {
+                }
+            }
+            catch (Exception ex) { MessageBox.Show("Ошибка!", "Что-то пошло не так", MessageBoxButton.OK, MessageBoxImage.Error); }
+        }
     }
 }

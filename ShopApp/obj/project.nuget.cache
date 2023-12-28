@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "S9N96/FPwuCGQhPHKnvAgKQDIiPwC15bpsJsNZplYlZn0RuRN7uw7Gc/d94N+3B/2WstdauvzplML0MTshb0Jg==",
+  "dgSpecHash": "8mdPTLR49vFZcNIWEnNIRF3fTNguY71d6t+HHtXfoeuZRInXlDmjgH9VscrHxHsKHUw2ePAk+ytplpxWVHb28g==",
   "success": true,
-  "projectFilePath": "C:\\Users\\admin\\Desktop\\ShopApp-master\\ShopApp-master\\ShopApp\\ShopApp.csproj",
+  "projectFilePath": "C:\\Users\\admin\\Desktop\\bv\\ShopApp\\ShopApp\\ShopApp.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\admin\\.nuget\\packages\\entityframework\\6.2.0\\entityframework.6.2.0.nupkg.sha512",
     "C:\\Users\\admin\\.nuget\\packages\\entityframework.ru\\6.2.0\\entityframework.ru.6.2.0.nupkg.sha512",

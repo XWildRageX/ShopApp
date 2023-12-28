@@ -419,11 +419,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\admin\\Desktop\\ShopApp-master\\ShopApp-master\\ShopApp\\ShopApp.csproj",
+      "projectUniqueName": "C:\\Users\\admin\\Desktop\\bv\\ShopApp\\ShopApp\\ShopApp.csproj",
       "projectName": "ShopApp",
-      "projectPath": "C:\\Users\\admin\\Desktop\\ShopApp-master\\ShopApp-master\\ShopApp\\ShopApp.csproj",
+      "projectPath": "C:\\Users\\admin\\Desktop\\bv\\ShopApp\\ShopApp\\ShopApp.csproj",
       "packagesPath": "C:\\Users\\admin\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\admin\\Desktop\\ShopApp-master\\ShopApp-master\\ShopApp\\obj\\",
+      "outputPath": "C:\\Users\\admin\\Desktop\\bv\\ShopApp\\ShopApp\\obj\\",
       "projectStyle": "PackageReference",
       "skipContentFileWrite": true,
       "fallbackFolders": [
